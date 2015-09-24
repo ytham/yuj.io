@@ -23,7 +23,10 @@
 }
 
 .project-subtitle {
-
+  position: absolute;
+  font-size: 4em;
+  top: 40px;
+  right: 40px;
 }
 
 .project-description {

@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,6 +15,47 @@ a:hover {
   text-decoration: none;
   color: #00FF00;
 }
+
+#basepage {
+  display: inline-block;
+  position: relative;
+  width: 300%;
+  height: 100%;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pagenode {
+  display: inline-block;
+  position: absolute;
+  width: 33.33%;
+  height: 100%;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#projects_section {
+  left: -33.33%;
+}
+
+#cover_section {
+  left: 0%;
+}
+
+#contact_section {
+  left: 33.33%;
+  padding: 50px;
+  background-color: #000;
+}
+
+
+/* Index */
 
 .cover {
   display: inline-block;
@@ -96,3 +138,48 @@ a:hover {
   color: #EEEEEE;
   background-color: rgba(0,0,0,0.5);
 }
+
+
+/* Projects */
+
+.project {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*float: left;
+  clear: both;*/
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+.project-title {
+  position: absolute;
+  font-size: 4em;
+  top: 40px;
+  right: 40px;
+}
+
+.project-subtitle {
+  position: absolute;
+  font-size: 4em;
+  top: 40px;
+  right: 40px;
+}
+
+.project-description {
+
+}
+
+.project-media {
+
+}
+
+
+/* Contact */

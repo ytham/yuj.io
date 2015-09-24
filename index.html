@@ -23,34 +23,61 @@
       </div>
     </nav>
 
-    <div class="cover">
-      <div class="cover-inner">
-        <div class="cover-header cover-row">
-          <h1 class="title">yuj.io</h1>
-          <h2 class="subtitle">Dream it. Build it.</h2>
+    <div id="basepage">
+
+      <div id="projects_section" class="pagenode">
+        <div class="project" style="background-image: url('img/barmixvah.jpg')">
+          <h1 class="project-title">Bar Mixvah</h1>
+          <h2 class="project-subtitle">Bartender robot</h2>
+
         </div>
-        <div class="links cover-row">
-          <div class="col-sm-4">
-            <a href="projects.html">Projects</a>
-          </div>
-          <div class="col-sm-4">
-            <a href="blog/">Blog</a>
-          </div>
-          <div class="col-sm-4">
-            <a href="contact.html">Contact</a>
+        <div class="project">
+          <h1 class="project-title">3D Printed Watch</h1>
+          <h2 class="project-subtitle">Utilizes hand-wind Asian 6498 movement</h2>
+        </div>
+        <div class="project">
+          <h1 class="project-title">Leap Motion Robotic Arm</h1>
+          <h2 class="project-subtitle">Robotic arm controlled by a Leap Motion</h2>
+        </div>
+      </div>
+
+      <div id="cover_section" class="pagenode">
+
+        <div class="cover">
+          <div class="cover-inner">
+            <div class="cover-header cover-row">
+              <h1 class="title">yuj.io</h1>
+              <h2 class="subtitle">Dream it. Build it.</h2>
+            </div>
+            <div class="links cover-row">
+              <div class="col-sm-4">
+                <a href="#projects" onclick="goToProjects()">Projects</a>
+              </div>
+              <div class="col-sm-4">
+                <a href="blog/">Blog</a>
+              </div>
+              <div class="col-sm-4">
+                <a href="#contact" onclick="goToContact()">Contact</a>
+              </div>
+            </div>
+            <div class="about cover-row">
+              I'm Yu Jiang Tham and I love bringing the ideas in my head into
+              reality. Creating and designing cool hardware and software
+              is my passion and my life, and I am extremely fortunate to be able
+              to do what I do. I want to share it with you.
+            </div>
           </div>
         </div>
-        <div class="about cover-row">
-          I'm Yu Jiang Tham and I love bringing the ideas in my head into
-          reality. Creating and designing cool hardware and software
-          is my passion and my life, and I am extremely fortunate to be able
-          to do what I do. I want to share it with you.
-        </div>
+      </div>
+
+      <div id="contact_section" class="pagenode">
+        <h1>Contact</h1>
+        Form
       </div>
     </div>
 
   </body>
   <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
   <script src="js/yuj.js"></script>
 </html>
