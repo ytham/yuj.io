@@ -204,3 +204,13 @@ a:hover {
 
 
 /* Contact */
+
+.footer {
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+  color: #555555;
+}
