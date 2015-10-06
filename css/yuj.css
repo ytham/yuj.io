@@ -23,7 +23,7 @@ a:hover {
   height: 100%;
   overflow: auto;
   top: 0px;
-  left: 0px;
+  left: -100%;
   margin: 0px;
   padding: 0px;
 }
@@ -41,17 +41,38 @@ a:hover {
 }
 
 #projects_section {
-  left: -33.33%;
-}
-
-#cover_section {
   left: 0%;
 }
 
+#cover_section {
+  left: 33.333%;
+}
+
 #contact_section {
-  left: 33.33%;
+  left: 66.666%;
   padding: 50px;
   background-color: #000;
+}
+
+/* User Interface Elements */
+.backButton {
+  position: fixed;
+  display: inline-block;
+  top: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #00AAFF;
+  font-size: 20px;
+}
+
+#leftBackButton {
+  display: none;
+  left: 10px;
+}
+
+#rightBackButton {
+  display: none;
+  right: 10px;
 }
 
 
